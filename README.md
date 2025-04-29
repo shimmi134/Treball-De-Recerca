@@ -22,7 +22,7 @@ Cada annex té un fitxer amb una funció `main()` que pots executar directament.
 Per exemple, per executar l’Annex I (SVM):
 
 ```
-python annex1_svm/main.py
+python SVM/main.py
 ```
 
 Canvia el nom del directori segons l'annex que vulguis executar (`annex2_kmeans/`, `annex3_neural_net/`, etc.)
@@ -30,10 +30,10 @@ Canvia el nom del directori segons l'annex que vulguis executar (`annex2_kmeans/
 ## Estructura
 
 ```
-annex1_svm/
-annex2_kmeans/
-annex3_neural_net/
-annex4_feature_importance/
+SVM/
+kmeans/
+neuralNetwork/
+feature_importance/
 requirements.txt
 README.md
 ```
